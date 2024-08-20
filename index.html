@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Support</h1>
+        <p>Please input the 7-digit code found on the side of the beer cap</p>
+        <input type="text" id="codeInput" placeholder="Enter code">
+        <button onclick="checkCode()">Submit</button>
+        <div id="result" class="hidden">
+            <p>Congratulations! You found the correct code.</p>
+            <a href="https://example.com" target="_blank" id="hiddenLink">Click here to proceed</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
